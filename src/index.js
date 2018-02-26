@@ -1,4 +1,5 @@
-module.exports = function longestConsecutiveLength(array) {
+module.exports = function longestConsecutiveLength(array)
+{
 function compareNumeric(a, b) {
 if (a > b) return 1;
 if (a < b) return -1;
